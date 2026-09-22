@@ -1,0 +1,12 @@
+.account-form { max-width:900px; }
+@media (min-width:801px) { .sidebar { overflow-y:auto; flex-shrink:0; } .sidebar .brand,.sidebar .logout { flex-shrink:0; } }
+.account-form fieldset { border:0; padding:0; margin:0; min-width:0; }
+.profile-photo-row { display:flex; align-items:center; gap:20px; flex-wrap:wrap; margin-bottom:24px; }
+.profile-photo,.profile-photo-placeholder { width:100px; height:100px; border-radius:50%; object-fit:cover; }
+.profile-photo-placeholder { display:grid; place-items:center; background:var(--cream); color:var(--brand); font-size:36px; }
+.user-avatar img { width:100%; height:100%; border-radius:50%; object-fit:cover; }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+.product-card .product-brand { color:var(--brand); text-transform:uppercase; font-size:11px; font-weight:700; letter-spacing:.1em; }
+.product-card p { overflow-wrap:anywhere; white-space:pre-wrap; }
+.product-stock { font-size:22px; font-weight:700; color:var(--brand-dark); }
+.product-actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:18px; }
